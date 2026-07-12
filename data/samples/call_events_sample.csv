@@ -1,0 +1,4 @@
+timestamp,ani,dnis,queue,notes
+2026-07-01T08:00:00Z,+15551234567,+18005550100,Sample_Sales,Dummy sample only
+2026-07-01T08:01:00Z,+15550001111,+18005550100,Sample_Sales,Dummy sample only
+2026-07-01T08:02:00Z,+15559876543,+18005550200,Sample_Support,Dummy sample only

@@ -1,0 +1,2 @@
+ani,source_name,source_type,risk_level,risk_score,reason,first_seen,last_seen,active,notes
++15552345678,ProviderReference,public_reference,low,20,Provider-level public reference data only. Not a direct phone-number spam decision.,2026-05-01,2026-07-05,1,Dummy sample only

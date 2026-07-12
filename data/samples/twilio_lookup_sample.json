@@ -1,0 +1,8 @@
+{
+  "phone_number": "+1XXXXXXXXXX",
+  "carrier": {
+    "name": "Example VoIP Carrier",
+    "type": "non-fixed voip"
+  },
+  "note": "Dummy sample only. Do not commit real paid API responses unless approved."
+}

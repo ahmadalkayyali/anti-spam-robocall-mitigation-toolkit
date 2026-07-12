@@ -1,0 +1,7 @@
+ani,source_name,source_type,risk_level,risk_score,reason,first_seen,last_seen,active,notes
++15551234567,InternalSpamList,internal,high,95,Repeated robocall pattern in enterprise contact center,2026-01-01,2026-07-01,1,Dummy sample only
++15557654321,CarrierDNO,dno,high,90,Do-not-originate match from authorized carrier feed,2026-02-01,2026-07-02,1,Dummy sample only
++15559876543,TwilioLookup,enrichment,medium,55,Non-fixed VoIP source identified during enrichment,2026-03-01,2026-07-03,1,Dummy sample only
++18005550199,CustomerComplaints,complaints,medium,60,Multiple complaint records associated with repeated calls,2026-04-01,2026-07-04,1,Dummy sample only
++15552345678,ProviderReference,public_reference,low,20,Provider-level reference data only,2026-05-01,2026-07-05,1,Dummy sample only
++15553456789,ManualReview,review,low,25,Requires investigation but not eligible for blocking,2026-06-01,2026-07-06,1,Dummy sample only

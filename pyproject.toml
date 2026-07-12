@@ -1,0 +1,20 @@
+[project]
+name = "anti-spam-robocall-mitigation-toolkit"
+version = "1.0.0"
+description = "Source-agnostic ANI risk validation toolkit for anti-spam and robocall mitigation in Cisco voice environments."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "Ahmad Alkayyali" }
+]
+keywords = ["cisco", "cube", "cvp", "icm", "ucce", "robocall", "spam", "ani", "telecom"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent"
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

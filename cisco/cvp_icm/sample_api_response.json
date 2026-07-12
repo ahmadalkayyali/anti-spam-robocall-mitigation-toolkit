@@ -1,0 +1,12 @@
+{
+  "ani": "+1XXXXXXXXX1",
+  "normalized_ani": "+1XXXXXXXXX1",
+  "dnis": "1XXXXXXXXXX",
+  "source": "cvp",
+  "risk_score": 95,
+  "decision": "BLOCK",
+  "reason": "Repeated robocall pattern in enterprise contact center",
+  "source_hits": ["InternalSpamList"],
+  "matched_records": 1,
+  "recommended_action": "Reject, disconnect, or route to controlled spam treatment after operational review"
+}
