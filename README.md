@@ -4,7 +4,7 @@ Source-agnostic ANI risk validation for Cisco voice and contact center environme
 
 This toolkit helps voice engineers validate inbound ANI values against trusted spam, robocall, carrier, DNO, internal complaint, and custom risk datasets before deciding how a call should be handled. It is designed for Cisco CUBE, CVP, ICM, UCCE, CUCM, SIP trunk, and enterprise contact center workflows.
 
-> This repository uses dummy sample data only. Do not commit production call records, customer data, private ANI evidence, API keys, carrier files, internal IPs, usernames, passwords, or organization-specific blocklists.
+> This repository uses dummy sample data only. 
 
 ## Why this project exists
 
