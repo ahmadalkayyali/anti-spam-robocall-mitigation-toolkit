@@ -70,19 +70,19 @@ python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-### 3. Install dependencies
+### 2. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Build a local SQLite database from sample data
+### 3. Build a local SQLite database from sample data
 
 ```bash
 python scripts/build_db.py --source data/samples/ani_risk_sources_sample.csv --db data/output/ani_risk.sqlite
 ```
 
-### 5. Query a test ANI locally
+### 4. Query a test ANI locally
 
 ```bash
 python scripts/query_ani.py --ani +15551234567 --db data/output/ani_risk.sqlite
@@ -101,7 +101,7 @@ Expected result:
 }
 ```
 
-### 6. Run the REST API
+### 5. Run the REST API
 
 ```bash
 uvicorn antispam_robocall_toolkit.api:app --app-dir src --reload --host 0.0.0.0 --port 8080
