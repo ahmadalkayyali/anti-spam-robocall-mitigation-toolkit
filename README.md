@@ -53,14 +53,8 @@ Decision: ALLOW / WATCH / CHALLENGE / SPAM_QUEUE / BLOCK / REVIEW
 
 ## Quick start
 
-### 1. Clone your GitHub repo
 
-```bash
-git clone https://github.com/YOUR_USERNAME/anti-spam-robocall-mitigation-toolkit.git
-cd anti-spam-robocall-mitigation-toolkit
-```
-
-### 2. Create a Python virtual environment
+### 1. Create a Python virtual environment
 
 Windows PowerShell:
 
@@ -220,29 +214,7 @@ Else                      -> route normally
 
 See [`cisco/cvp_icm/README_CVP_ICM.md`](cisco/cvp_icm/README_CVP_ICM.md).
 
-## Repository safety checklist
 
-Before publishing:
-
-- [ ] No `.env` file committed
-- [ ] No API keys or tokens
-- [ ] No customer call records
-- [ ] No internal company ANI list
-- [ ] No U-Haul or employer-specific names in data
-- [ ] No internal hostnames, IPs, SIP trunks, or dial-peer IDs unless sanitized
-- [ ] Only dummy sample data under `data/samples/`
-- [ ] MIT license included
-- [ ] README explains how to use the project
-
-## Suggested GitHub description
-
-```text
-Source-agnostic ANI risk validation toolkit for anti-spam and robocall mitigation in Cisco CUBE, CVP, ICM, and UCCE environments.
-```
-
-## Cisco DevNet Code Exchange fit
-
-This project is relevant to Cisco technologies because it includes Cisco CUBE configuration export and Cisco CVP/ICM/UCCE integration design. Keep the repository public, licensed, and well documented before submission.
 
 ## References
 
